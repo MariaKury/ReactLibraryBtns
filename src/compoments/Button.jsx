@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function Button({
   text = "Button",
   icon,
@@ -19,3 +21,13 @@ export default function Button({
     </button>
   );
 }
+
+Button.propTypes = {
+  text: PropTypes.string,
+  icon: PropTypes.string,
+  size: PropTypes.oneOf(["small", "medium", "large"]),
+  variant: PropTypes.oneOf(["primary", "secondary", "tertiary"]),
+  fullWidth: PropTypes.bool,
+  isDisabled: PropTypes.bool,
+  onClick: PropTypes.func,
+};
