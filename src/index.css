@@ -212,7 +212,7 @@ body {
 
 .button.primary:hover {
   background-color: #3be362;
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
 }
 
 .button.secondary {
@@ -223,7 +223,7 @@ body {
 
 .button.secondary:hover {
   background-color: #67d8f3;
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
 }
 
 .button.danger {
@@ -234,7 +234,7 @@ body {
 
 .button.danger:hover {
   background-color: #ff2e2e;
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
 }
 
 .button.gradient {
@@ -244,7 +244,7 @@ body {
 }
 
 .button.gradient:hover {
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
   background: linear-gradient(45deg, #7873f5, #ff6ec4);
 }
 
